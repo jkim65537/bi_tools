@@ -1,19 +1,32 @@
-# bi_tools
+# bi_tools 0.1.7
 
 # Introduction
 bi_tools
+Python 2 & 3 compatible and OS Independent
 
-- BI Logger
-- BI Parser
-- Flex Read
-- Flex Write
+## Features
+- BILogger
+- BIParser
+- flex_read
+- flex_write
+- wide_to_long
+- long_to_wide
+- create_hash_key
+- remove_garbage
+- redshift_to_snowflake
+- timeit
+- backfill
+- col_type_compare_and_match
+- format_for_load
+- make_directory
+- rename_w_snowflake_column_naming_convention
 
 ## Installation
 
-To install, clone this repository and run ez_bi_tools_installer.sh by running
+To install, run the command below
 
 ```
-sh /home/$USER/bitools/BILogger/ez_bi_tools_installer.sh
+pip install bi_tools
 ```
 
 ## Log Level
